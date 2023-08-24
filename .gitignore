@@ -1,0 +1,5 @@
+.idea/
+/venv/
+main.py
+dataset_1.txt
+output.txt
