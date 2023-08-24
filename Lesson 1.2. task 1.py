@@ -7,9 +7,11 @@ def different_objects(objects):
             objects_count += 1
     return objects_count
 
+
 def main():
     objects = list(input().split(','))
     print(different_objects(objects))
+
 
 if __name__ == '__main__':
     main()
