@@ -1,7 +1,7 @@
 import datetime
 
 
-def date_(year, month, day, days_number):
+def add_days(year, month, day, days_number):
     current_date = datetime.date(year, month, day)
     delta = datetime.timedelta(days=days_number)
     new_date = current_date + delta
@@ -12,7 +12,7 @@ def date_(year, month, day, days_number):
 def main():
     year, month, day = [int(i) for i in input().split()]
     days = int(input())
-    new_date = date_(year, month, day, days)
+    new_date = add_days(year, month, day, days)
     print(new_date)
 
 
